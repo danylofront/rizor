@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" width="25" height="25">
+	<title>преимущества</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #0c0c0c;stroke: #ffffff;paint-order:stroke fill markers;stroke-width: 6 } 
+	</style>
+	<g id="преимущества">
+		<g id="цвет">
+			<g id="Группа 10">
+				<path id="Фигура 6" class="shp0" d="M3 12.12C3 6.75 7.35 2.4 12.72 2.4C18.09 2.4 22.44 6.75 22.44 12.12C22.44 17.48 18.09 21.84 12.72 21.84C7.35 21.84 3 17.48 3 12.12Z" />
+			</g>
+		</g>
+	</g>
+</svg>

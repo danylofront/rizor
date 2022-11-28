@@ -1,0 +1,865 @@
+html, body { 
+	overflow-x: hidden; 
+	scroll-behavior: smooth; 
+}
+
+* { 
+	margin: 0;
+	padding: 0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.flex-item {
+    font-size: 11px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.link1 {
+    background: 
+    linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
+    background-size: 100% 0.1em, 0 0.1em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+}
+
+.link1:hover,:focus {
+    background-size: 0 0.1em, 100% 0.1em;
+}
+.logo {
+    margin-top: 9px;
+}
+
+.pre {
+    margin-left: 306px;
+}
+
+.background1 {
+    position: absolute;
+    width: 918px;
+    margin-left: 816px;
+    margin-top: 10px;
+}
+
+
+.figure {
+    position: absolute;
+    left: 777px;
+    top: 135px;
+}
+
+.figtext {
+    position: absolute;
+    font-weight: bold;
+    font-size: 12px;
+    transform: rotate(270deg);
+    color: black;
+    left: 742px;
+    top: 164px;
+    line-height: 97%;
+    font-family: 'Roboto Slab', serif;
+}
+
+.hovertrax {
+    position: absolute;
+    font-size: 4em;
+    font-family: 'Rubik Mono One', sans-serif;
+    letter-spacing: 8px;
+    line-height: 67px;
+    left: 449px;
+    top: 220px;
+}
+
+.manevr {
+    position: absolute;
+    font-size: 16px;
+    left: 449px;
+    top: 470px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.arrowpng {
+    position: absolute;
+    left: 466px;
+    top: 572px;
+}
+
+.giroblock2 {
+    position: absolute;
+    width: 640px;
+    top: 932px;
+}
+
+.figurebl2 {
+    position: absolute;
+    top: 1210px;
+    left: 276px;
+}
+
+.figure2bl2 {
+    position: absolute;
+    top: 1238px;
+    left: 310px;
+}
+
+.textbl2 {
+    position: absolute;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    top: 1038px;
+    left: 756px;
+    font-size: 21px;
+    color: rgb(0, 0, 255);
+    letter-spacing: 3px;
+}
+
+.text2bl2 {
+    position: absolute;
+    letter-spacing: 3px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: bold;
+    font-size: 51px;
+    top: 1152px;
+    left: 756px;
+}
+
+.text3bl2 {
+    position: absolute;
+    font-family: 'Manrope', sans-serif;
+    top: 1254px;
+    left: 756px;
+}
+
+.list1 {
+    position: absolute;
+    font-family: 'Manrope', sans-serif;
+    top: 1324px;
+    left: 800px;
+    list-style-image: url(../img/Слой\ 29\ копия\ 4.svg);
+    line-height: 179%;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+.text4bl2 {
+    position: absolute;
+    letter-spacing: 3px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: bold;
+    top: 1403px;
+    left: 1115px;
+    font-size: 51px;
+}
+
+.text5bl2 {
+    position: absolute;
+    font-family: 'Manrope', sans-serif;
+    top: 1500px;
+    left: 1115px;
+}
+
+.figure3bl2 {
+    position: absolute;
+    width: 300px;
+}
+
+.color1 {
+    position: absolute;
+    top: 791px;
+    left: 655px;
+}
+.color2 {
+    position: absolute;
+    top: 791px;
+    left: 571px;
+}
+
+.text6bl2 {
+    position: absolute;
+    letter-spacing: 3px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: bold;
+    top: 1682px;
+    left: 432px;
+    font-size: 51px;
+}
+
+.text7bl2 {
+    position: absolute;
+    font-family: 'Manrope', sans-serif;
+    top: 1769px;
+    left: 432px;
+    line-height: 28px;
+}
+
+.text8bl2 {
+    position: absolute;
+    font-family: 'Manrope', sans-serif;
+    top: 1894px;
+    left: 432px;
+    line-height: 28px;
+}
+
+.imgbl2 {
+    position: absolute;
+    left: 366px;
+    top: 1713px;
+}
+
+.img1bl2 {
+    position: absolute;
+    left: 366px;
+    top: 1713px;
+}
+
+.img2bl2 {
+    position: absolute;
+    left: 418px;
+    top: 2019px;
+}
+
+.figtext2 {
+    position: absolute;
+    font-weight: bold;
+    font-size: 12px;
+    transform: rotate(270deg);
+    color: black;
+    left: 340px;
+    top: 2102px;
+    line-height: 97%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.figure4bl2 {
+    position: absolute;
+    top: 2074px;
+    left: 382px;
+}
+
+.img3bl2 {
+    position: absolute;
+    top: 90em;
+    left: 66em;
+    height: 259px;
+}
+
+.img4bl2 {
+    position: absolute;
+    top: 90em;
+    left: 66em;
+}
+
+.textbl3 {
+    position: absolute;
+    letter-spacing: 3px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: bold;
+    font-size: 51px;
+    top: 51em;
+    left: 6em;
+}
+
+.text1bl3 {
+    position: absolute;
+    font-family: 'Manrope', sans-serif;
+    line-height: 28px;
+    top: 168em;
+    left: 19em;
+}
+
+.list2 {
+    position: absolute;
+    font-family: 'Manrope', sans-serif;
+    list-style-image: url(../img/Слой\ 29\ копия\ 4.svg);
+    line-height: 179%;
+    top: 173em;
+    left: 21em;
+}
+
+.figbl3 {
+    position: absolute;
+    top: 183em;
+    left: 19em;
+}
+
+.fig1bl3 {
+    position: absolute;
+    top: 183em;
+    left: 33em;
+}
+
+.imgbl3 {
+    position: absolute;
+    top: 160em;
+    left: 49em;
+}
+
+.fig2bl3 {
+    position: absolute;
+    top: 2632px;
+    left: 752px;
+}
+
+.fig3bl3 {
+    position: absolute;
+    top: 2617px;
+    left: 598px;
+}
+
+.fig4bl3 {
+    position: absolute;
+    top: 188em;
+    left: 756px;
+}
+
+.figtextbl3 {
+    position: absolute;
+    font-weight: bold;
+    font-size: 12px;
+    transform: rotate(270deg);
+    color: black;
+    left: 720px;
+    top: 253em;
+    line-height: 97%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.textbl4 {
+    position: absolute;
+    letter-spacing: 3px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: bold;
+    font-size: 51px;
+    left: 19em;
+    top: 68em;
+}
+
+.text1bl4 {
+    position: absolute;
+    font-family: 'Manrope', sans-serif;
+    line-height: 28px;
+    left: 972px;
+    top: 222em;
+}
+
+.text2bl4 {
+    position: absolute;
+    font-family: 'Manrope', sans-serif;
+    line-height: 28px;
+    left: 972px;
+    top: 228em;
+}
+
+.imgbl4 {
+    position: absolute;
+    top: 233em;
+    left: 61em;
+}
+
+.img1bl4 {
+    position: absolute;
+    top: 238em;
+    left: 971px;
+}
+
+.img2bl4 {
+    position: absolute;
+    top: 234em;
+    left: 73em;
+}
+
+.img3bl4 {
+    position: absolute;
+    top: 238em;
+    left: 1174px;
+}
+
+.img4bl4 {
+    position: absolute;
+    top: 244em;
+    left: 971px;
+}
+
+.img5bl4 {
+    position: absolute;
+    top: 3022pt;
+    left: 1155px;
+}
+
+.img6bl4 {
+    position: absolute;
+    top: 250em;
+    left: 1121px;
+}
+
+.img7bl4 {
+    position: absolute;
+    top: 217em;
+    left: 19em;
+}
+
+.img8bl4 {
+    position: absolute;
+    top: 232em;
+    left: 26em;
+}
+
+.img9bl4 {
+    position: absolute;
+    top: 232em;
+    left: 37em;
+}
+
+.text3bl4 {
+    position: absolute;
+    letter-spacing: 3px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: bold;
+    font-size: 51px;
+    left: 6em;
+    top: 76em;
+}
+
+.text4bl4 {
+    position: absolute;
+    font-family: 'Manrope', sans-serif;
+    line-height: 28px;
+    left: 305px;
+    top: 248em;
+}
+
+.imgbl5 {
+    position: absolute;
+    top: 272em;
+    left: -187px;
+}
+
+.text1bl5 {
+    position: absolute;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    top: 213em;
+    left: 18em;
+    font-size: 21px;
+    color: rgb(0, 0, 255);
+    letter-spacing: 3px;
+}
+
+.text2bl5 {
+    position: absolute;
+    top: 114em;
+    left: 376px;
+    font-size: 40px;
+    letter-spacing: 3px;
+    line-height: 80px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Rubik Mono One";
+}
+
+.img1bl5 {
+    position: absolute;
+    top: 293em;
+    left: 53em;
+}
+
+.text3bl5 {
+    position: absolute;
+    top: 236em;
+    left: 46em;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+.text4bl5 {
+    position: absolute;
+    top: 298em;
+    left: 920px;
+    font-family: 'Manrope', sans-serif;
+    line-height: 28px;
+}
+
+.img2bl5 {
+    position: absolute;
+    top: 293em;
+    left: 76em;
+}
+
+.text5bl5 {
+    position: absolute;
+    top: 236em;
+    left: 1260px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: #000000;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.text6bl5 {
+    position: absolute;
+    top: 298em;
+    left: 1261px;
+    font-family: 'Manrope', sans-serif;
+    line-height: 28px;
+}
+
+.img3bl5 {
+    position: absolute;
+    top: 310em;
+    left: 54em;
+}
+
+.text7bl5 {
+    position: absolute;
+    top: 249em;
+    left: 920px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: #000000;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.text8bl5 {
+    position: absolute;
+    top: 314em;
+    left: 920px;
+    font-family: 'Manrope', sans-serif;
+    line-height: 28px;
+}
+
+.img4bl5 {
+    position: absolute;
+    top: 309em;
+    left: 76em;
+}
+
+.text9bl5 {
+    position: absolute;
+    top: 249em;
+    left: 1260px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: #000000;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.text10bl5 {
+    position: absolute;
+    top: 314em;
+    left: 1261px;
+    font-family: 'Manrope', sans-serif;
+    line-height: 28px;
+}
+
+.img5bl5 {
+    position: absolute;
+    top: 119cm;
+    left: 1145px;
+    font-size: 173px;
+    letter-spacing: 6px;
+    line-height: 170px;
+    color: #f8f8f8;
+    font-weight: 400;
+    font-family: "Rubik Mono One";
+    text-align: right;
+    transform: rotate(270deg);
+}
+
+.figbl5 {
+    position: absolute;
+    top: 299em;
+    left: 106em;
+}
+
+.fig1bl5 {
+    position: absolute;
+    top: 302em;
+    left: 106em;
+}
+
+.fig2bl5 {
+    position: absolute;
+    top: 298em;
+    left: 106em;
+}
+
+.fig3bl5 {
+    position: absolute;
+    top: 4811px;
+    left: 1691px;
+}
+
+.fig4bl5 {
+    position: absolute;
+    top: 277em;
+    left: 1699px;
+    width: 1px;
+    height: 327px;
+    background-color: #392ff7;
+}
+
+.fig5bl5 {
+    position: absolute;
+    top: 304em;
+    left: 1699px;
+    width: 1px;
+    height: 327px;
+    background-color: #392ff7;
+}
+
+.imgbl6 {
+    position: absolute;
+    top: 338em;
+}
+
+.img1bl6 {
+    position: absolute;
+    top: 334em;
+    left: 39em;
+    height: 753px;
+    width: 1179px;
+    overflow: hidden;
+    direction: rtl;
+}
+
+.textbl6 {
+    position: absolute;
+    top: 276em;
+    left: 208px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+.text1bl6 {
+    position: absolute;
+    top: 350em;
+    left: 13em;
+    letter-spacing: 2px;
+    line-height: 26px;
+    color: #ffffff;
+}
+
+.text2bl6 {
+    position: absolute;
+    top: 358em;
+    left: 13em;
+    letter-spacing: 2px;
+    line-height: 26px;
+    color: #ffffff;
+}
+
+.btbl6 {
+    position: absolute;
+    top: 418em;
+    left: 15em;
+    width: 238px;
+    height: 44px;
+    border-radius: 79px;
+    border-radius: 26px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #3a30f8;
+    font-weight: 700;
+    font-family: "Roboto";
+    filter: drop-shadow(0px 5px 2.5px rgba(0,0,1,0.2));
+    background-color: #ffffff;
+}
+
+.text3bl6 {
+    position: absolute;
+    top: 300em;
+    left: 30em;
+    font-size: 173px;
+    letter-spacing: 6px;
+    line-height: 170px;
+    color: #f8f8f8;
+    font-weight: 400;
+    font-family: "Rubik Mono One";
+    text-align: right;
+}
+
+.button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    top: 418em;
+    left: 15em;
+    width: 238px;
+    height: 44px;
+    border-radius: 79px;
+    border-radius: 26px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #3a30f8;
+    font-weight: 700;
+    font-family: "Roboto";
+    filter: drop-shadow(0px 5px 2.5px rgba(0,0,1,0.2));
+    background-color: #ffffff;
+  }
+.alert{
+    position: fixed;
+    background: #ffdb9b;
+    padding: 20px 40px;
+    min-width: 420px;
+    right: 0;
+    top: 10px;
+    border-radius: 4px;
+    border-left: 8px solid #ffa502;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+.alert.showAlert{
+    opacity: 1;
+    pointer-events: auto;
+}
+  .alert.show{
+    animation: show_slide 1s ease forwards;
+}
+@keyframes show_slide {
+    0%{
+      transform: translateX(100%);
+    }
+    40%{
+      transform: translateX(-10%);
+    }
+    80%{
+      transform: translateX(0%);
+    }
+    100%{
+      transform: translateX(-10px);
+    }
+}
+.alert.hide{
+    animation: hide_slide 1s ease forwards;
+}
+@keyframes hide_slide {
+    0%{
+      transform: translateX(-10px);
+    }
+    40%{
+      transform: translateX(0%);
+    }
+    80%{
+      transform: translateX(-10%);
+    }
+    100%{
+      transform: translateX(100%);
+    }
+  }
+.alert .fa-exclamation-circle{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ce8500;
+    font-size: 30px;
+}
+.alert .msg{
+    padding: 0 20px;
+    font-size: 18px;
+    color: #ce8500;
+    text-align: center;
+}
+.alert .close-btn{
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #ffd080;
+    padding: 20px 18px;
+    cursor: pointer;
+}
+.alert .close-btn:hover{
+    background: #ffc766;
+}
+.alert .close-btn .fas{
+    color: #ce8500;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.regButton {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 39px;
+    padding: 6px 24px;
+    cursor: pointer;
+    color: #cc6600;
+    height: 50px;
+    width: 200px;
+
+}
+
+.regButton:hover {
+      background: #ccc;
+}
+
+#window {
+    width: 350px;
+    height: 493px;
+    margin: 40px auto;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    z-index: 150; display: none;
+    position: fixed; left: 0;right: 0;top:0;bottom: 0;
+} 
+.form{
+    width: 275px; margin: -15px auto 20px auto; text-align: center;
+} 
+.input{
+    width: 260px;padding: 5px; margin-bottom: 10px;
+} 
+.radio{
+    margin-bottom: 10px;
+} 
+.close{
+    margin: 10px 0 0 320px;
+    cursor: pointer;border: 1px solid #ccc;
+    padding: 2px; background: #ccc;}
+.close:hover{
+    background: #fff;
+} 
+#gray{opacity: 0.8; padding: 15px;
+    background-color: rgba(1,1,1,0.75); 
+    position: fixed;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0; 
+    display: none; 
+    z-index:100; 
+    overflow: auto; 
+} 

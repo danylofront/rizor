@@ -1,0 +1,17 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 42" width="89" height="42">
+	<title>преимущества</title>
+	<style>
+		tspan { white-space:pre }
+		.t0 { font-size: 16px;line-height: 24px;fill: #666666;font-weight: 300;font-family: "Roboto-Light", "Roboto" } 
+	</style>
+	<g id="преимущества">
+		<g id="электроника">
+			<text id="Встроенный гироскоп" style="transform: matrix(1,0,0,1,-1,14)" >
+				<tspan x="0" y="0" class="t0">В</tspan><tspan  y="0" class="t0">строенный
+</tspan>
+				<tspan x="0" y="24" class="t0">гироскоп
+</tspan>
+			</text>
+		</g>
+	</g>
+</svg>

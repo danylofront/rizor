@@ -1,0 +1,16 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 1" width="17" height="1">
+	<title>преимущества</title>
+	<defs>
+		<image width="17" height="1" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAABCAYAAAA4u0VhAAAAAXNSR0IArs4c6QAAABhJREFUGFdjtDL9YvD/3/85DGQCRibGFABKmAWVAOlG8gAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="преимущества">
+		<g id="цвет">
+			<g id="Группа 7 копия 2">
+				<use id="Фигура 11" href="#img1" transform="matrix(1,0,0,-1,0,1)"/>
+			</g>
+		</g>
+	</g>
+</svg>

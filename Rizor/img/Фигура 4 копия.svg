@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 7" width="7" height="7">
+	<title>характеристики</title>
+	<style>
+		tspan { white-space:pre }
+		.s0 { fill: #392ff7 } 
+	</style>
+	<g id="характеристики">
+		<g id="навигация копия 2">
+			<path id="Фигура 4 копия" class="s0" d="m6.88 3.62c0 1.93-1.57 3.5-3.5 3.5c-1.93 0-3.5-1.57-3.5-3.5c0-1.93 1.57-3.5 3.5-3.5c1.93 0 3.5 1.57 3.5 3.5z" />
+		</g>
+	</g>
+</svg>

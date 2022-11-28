@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 77 83" width="77" height="83">
+	<title>первый экран</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #3a30f8 } 
+	</style>
+	<g id="первый экран">
+		<g id="плей">
+			<path id="Фигура 8" class="shp0" d="M7.84 59.27C7.9 45.43 7.87 31.58 7.77 17.74C7.66 3.9 13.59 0.46 25.55 7.43C37.51 14.4 49.51 21.3 61.55 28.13C73.59 34.96 73.6 41.81 61.59 48.68C49.57 55.56 37.6 62.5 25.66 69.51C13.73 76.52 7.79 73.11 7.84 59.27Z" />
+		</g>
+	</g>
+</svg>
